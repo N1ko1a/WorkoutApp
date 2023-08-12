@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vezbe"
+    android:background="@drawable/hd_wallpaper_gymshark_fitness_black_brand_gym_logo_shark_workout_thumbnail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Back workout"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/ledja"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                android:src="@drawable/hqdefault"
+                app:srcCompat="@drawable/hqdefault"
+                tools:srcCompat="@drawable/hqdefault" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Chest workout"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/grudi"
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:src="@drawable/maxresdefault__1_"
+                app:srcCompat="@drawable/maxresdefault__1_"
+                tools:srcCompat="@drawable/maxresdefault__1_" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Biceps workout"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/biceps"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:src="@drawable/hqdefault__1_"
+                app:srcCompat="@drawable/hqdefault__1_"
+                tools:srcCompat="@drawable/hqdefault__1_" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Triceps workout"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/triceps"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:src="@drawable/grow_your_triceps_yt_1"
+                app:srcCompat="@drawable/grow_your_triceps_yt_1"
+                tools:srcCompat="@drawable/grow_your_triceps_yt_1" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Legs workout"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/noge"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                android:src="@drawable/leg_workouts"
+                app:srcCompat="@drawable/leg_workouts"
+                tools:srcCompat="@drawable/leg_workouts" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

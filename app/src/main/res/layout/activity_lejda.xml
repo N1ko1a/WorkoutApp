@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lejda"
+    android:background="@drawable/hd_wallpaper_gymshark_fitness_black_brand_gym_logo_shark_workout_thumbnail"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Deadlift" />
+
+            <ImageView
+                android:id="@+id/vezba1"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_11_58" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2" />
+
+            <TextView
+                android:id="@+id/textView2.2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Reps: 4RM/4RM"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Wide Grip Pullup" />
+
+            <ImageView
+                android:id="@+id/vezba2"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_12_24" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2" />
+
+            <TextView
+                android:id="@+id/textView4.4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Reps: To failure, using bodyweight only"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Barbell Dead Rows" />
+
+            <ImageView
+                android:id="@+id/vezba3"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_12_33" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2-3"/>
+
+            <TextView
+                android:id="@+id/textView6.6"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="Reps: 8-10"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Barbell Shrugs" />
+
+            <ImageView
+                android:id="@+id/vezba4"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_12_57" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 1" />
+
+            <TextView
+                android:id="@+id/textView8.8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Reps: Ladder to 10 reps"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text=" Weighted Chin Lifts" />
+
+            <ImageView
+                android:id="@+id/vezba5"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_12_06" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2" />
+
+            <TextView
+                android:id="@+id/textView10.1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Reps: 4RM/8RM"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Alternating High Pulley Row" />
+
+            <ImageView
+                android:id="@+id/vezba6"
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:src="@drawable/screenshot_from_2023_08_09_13_12_37" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2-3" />
+            <TextView
+                android:id="@+id/textView12.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Reps: 10-12RM to failure on each arm" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

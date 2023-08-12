@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Triceps"
+    android:background="@drawable/hd_wallpaper_gymshark_fitness_black_brand_gym_logo_shark_workout_thumbnail"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Close Grip Bench Press " />
+
+            <ImageView
+                android:id="@+id/vezba1"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:src="@drawable/slika2_1" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 3" />
+
+            <TextView
+                android:id="@+id/textView2.2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Reps: 10/6/4 — to failure"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Tricep Dips" />
+
+            <ImageView
+                android:id="@+id/vezba2"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/slika2_2" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 3" />
+
+            <TextView
+                android:id="@+id/textView4.4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Reps: to failure on each drop (weighted, bodyweight and assisted)"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Overhead Cable Extension" />
+
+            <ImageView
+                android:id="@+id/vezba3"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/slika2_3" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 3 of each exercise, performed back to back as a drop set"/>
+
+            <TextView
+                android:id="@+id/textView6.6"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="Reps: 10-12RM — to failure"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Cable Rope Triceps Pushdown" />
+
+            <ImageView
+                android:id="@+id/vezba4"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:src="@drawable/slika2_4" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2" />
+
+            <TextView
+                android:id="@+id/textView8.8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Reps: 12RM to failure"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Lying Triceps Extension" />
+
+            <ImageView
+                android:id="@+id/vezba5"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:src="@drawable/slika2_5" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Sets: 2" />
+
+            <TextView
+                android:id="@+id/textView10.1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Reps: 15RM to failure"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

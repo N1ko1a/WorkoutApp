@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/_61f6abb9160c5b7d00a19561505801a__wallpaper_for_iphone_wallpaper">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="User Name"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/username"
+            android:inputType="textPassword"/>
+
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Retype Password"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/repassword"/>
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Existing user! Go to Sign in page"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/btnsignup"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
